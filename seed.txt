@@ -1,0 +1,22 @@
+CREATE TABLE profiles (
+  id SERIAL PRIMARY KEY,
+  clerk_user_id text,
+  username text,
+  bio text
+)
+
+CREATE TABLE posts (
+  id SERIAL PRIMARY KEY,
+  post_content TEXT NOT NULL,
+  profile_id INT,
+  FOREIGN KEY (profile_id) REFERENCES profiles(id)
+)
+
+CREATE TABLE commentz (
+    id SERIAL PRIMARY KEY,
+    comment_content TEXT NOT NULL,
+    post_id INT,
+    profile_id INT,
+    FOREIGN KEY (post_id) REFERENCES posts(id),
+    FOREIGN KEY (profile_id) REFERENCES profiles(id)
+);
