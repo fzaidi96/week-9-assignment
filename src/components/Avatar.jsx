@@ -12,6 +12,6 @@ export default async function Avatar() {
 
     return ( 
     <nav className={styles.avatar}>
-        <Link href={`/profile/${profile_id}`}><h6>avatar</h6></Link>
+        <Link href={`/profile/${profile_id}`}>@</Link>
     </nav>)
 }

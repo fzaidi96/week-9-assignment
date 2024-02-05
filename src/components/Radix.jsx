@@ -14,7 +14,7 @@ const TooltipDemo = () => {
         </Tooltip.Trigger>
         <Tooltip.Portal>
           <Tooltip.Content className={styles.TooltipContent} sideOffset={5}>
-            Delete Post
+            Delete Account
             <Tooltip.Arrow className={styles.TooltipArrow} />
           </Tooltip.Content>
         </Tooltip.Portal>

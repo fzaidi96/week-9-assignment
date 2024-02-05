@@ -1,6 +1,7 @@
 import styles from "@/app/page.module.css";
-import TooltipDemo from "@/components/Radix";
+import AlertDialogDemo from "@/components/AlertDialog";
 import Link from "next/link";
+import BackButton from "@/components/BackButton";
 
 
 
@@ -11,10 +12,11 @@ export default async function ProfileSettings ({params}) {
     return (
     <main className={styles.main}>
         <p>this is the settings page</p>
-        <p>let the user delete their account here</p>
+        <p>allow the the user delete their account here</p>
 
+        <AlertDialogDemo />
 
-        {/* adding here for where there would be a delete button */}
+        {/* N.B. haven't actualy figured out the functionality to delete from the database here*/}
 
         
 

@@ -36,4 +36,4 @@ export default async function RootLayout({ children }) {
   );
 }
 
-// I would have liked to set this up differntly but I wasn't sure how to get it to work. I want
+// I would have liked to set this up differntly but I wasn't sure how to get it to work. Ideally, I would route the users to the pages I have created for sign-in and sign-up. 

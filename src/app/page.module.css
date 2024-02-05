@@ -25,19 +25,35 @@
   bottom: 0;
   background-color: plum;
   width: 100%;
+  max-width: 400px;
   justify-content: space-around;
   align-items: center;
   padding: 2.5rem;
   border-radius: 10px;
+  margin-bottom:1rem;
 }
 
 .avatar {
   position: absolute;
   top: 0;
   right: 0;
-  padding:1rem;
-  border: 1px solid;
+  margin:0.5rem;
+  padding: 1rem;
   border-radius: 30px;
+  border: 1px solid white;
+  color:rgb(63,94,251);
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  font-size: xx-small;
+}
+
+.BackButton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin:0.5rem;
+  padding: 1rem;
+  color: darkblue;
 }
 
 .modal {
@@ -59,8 +75,8 @@
   padding: 10px 15px;
   font-size: 15px;
   line-height: 1;
-  color: plum;
-  background-color: white;
+  color: WHITE;
+  background-color: PLUM;
   box-shadow: hsl(206 22% 7% / 35%) 0px 10px 38px -10px, hsl(206 22% 7% / 20%) 0px 10px 20px -15px;
   user-select: none;
   animation-duration: 400ms;
