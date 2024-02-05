@@ -27,8 +27,15 @@ a {
 }
 
 button {
- padding:1rem;
- border-radius: 20px;
+  padding:1rem;
+  padding: 1rem;
+  border-radius: 30px;
+  border: 1px solid white;
+  color:rgb(63,94,251);
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  font-size: xx-small;
+  color:white;
 }
 
 

@@ -13,10 +13,6 @@
   border: 1px solid grey;
 }
 
-.main p {
-  text-align: center;
-}
-
 .navBar {
   display: flex;
   flex-direction: row;
@@ -46,6 +42,10 @@
   background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
   font-size: xx-small;
 }
+
+.username {
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;}
 
 .BackButton {
   position: absolute;
