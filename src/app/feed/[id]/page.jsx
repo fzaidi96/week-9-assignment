@@ -22,7 +22,7 @@ export default async function EachPost({params}) {
             <div>{comments.rows.map((comment) => 
               {return (<div key={comment.id}>
               <p>{comment.comment_content}</p></div>)})}</div>
-      <NewComment />
+      <NewComment post_id={post_id} />
       </main>
 
     )}
